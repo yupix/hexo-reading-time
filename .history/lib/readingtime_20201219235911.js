@@ -6,11 +6,11 @@ module.exports = function(content, suffix, wpm) {
     // Check if suffix provided is not a string
     if (suffix && typeof suffix !== "string") {
         console && console.warn("Second argument [suffix] must be a string.\nUsing default parameters.");
-        suffix = '分で読めます';
+        suffix = 'min. read';
     };
 
     !suffix && (suffix = '分で読めます');
-    // defaults for omitted parameter.
+    // defaults for omitted parameter.     
     // This way we can pass third argument and omit second.
 
 
