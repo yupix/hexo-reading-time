@@ -1,7 +1,7 @@
 {
-  "name": "hexo-reading-time",
+  "name": "@teampimcserver/hexo-reading-time",
   "description": "Plugin to display reading time for Hexo",
-  "version": "1.0.3",
+  "version": "1.0.3-path1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,12 +12,12 @@
   "author": "Irina Sokolovskaja",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ierhyna/hexo-reading-time.git"
+    "url": "git+https://github.com/yupix/hexo-reading-time.git"
   },
   "bugs": {
-    "url": "https://github.com/ierhyna/hexo-reading-time/issues"
+    "url": "https://github.com/yupix/hexo-reading-time/issues"
   },
-  "homepage": "https://github.com/ierhyna/hexo-reading-time#readme",
+  "homepage": "https://github.com/yupix/hexo-reading-time#readme",
   "license": "MIT",
   "dependencies": {
     "html-to-text": "^2.1.3",

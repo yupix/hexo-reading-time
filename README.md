@@ -1,12 +1,22 @@
-[![NPM Version](https://img.shields.io/npm/v/hexo-reading-time.svg)](https://www.npmjs.com/package/hexo-reading-time)
+[![NPM Version](https://img.shields.io/npm/v/%40teampimcserver%2Fhexo-reading-time.svg)](https://www.npmjs.com/package/%40teampimcserver%2Fhexo-reading-time)
 
 # hexo-reading-time
 [Hexo](https://hexo.io/) plugin that displays reading time for the article.
 
+## CHANGE
+
+- Change to Japanese
+- Change README.md
+- Change Package.json
+
 ## Installation
 
-```
-npm install --save hexo-reading-time
+```shell
+#npm
+npm install --save @teampimcserver/hexo-reading-time
+
+#yarn
+yarn add @teampimcserver/hexo-reading-time
 ```
 
 ## Usage
@@ -46,10 +56,10 @@ Jade:
 span= readingTime(page.content, 'min.', wordsperminute)
 ```
 
-Where:  
- `'min.'` - second argument - any string that represents suffix. Default is 'min. read'  
- `wpm` - number - words per minute. Default is 150.  
- Both arguments are optional.  
+Where:
+ `'min.'` - second argument - any string that represents suffix. Default is 'min. read'
+ `wpm` - number - words per minute. Default is 150.
+ Both arguments are optional.
 
 ## License
 MIT
